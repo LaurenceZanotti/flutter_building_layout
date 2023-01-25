@@ -6,6 +6,10 @@ A tutorial driven project taken from the [Flutter Docs](https://docs.flutter.dev
 
 - Learn Flutter layout structure philosophy
 
+1. Create a layout without following the tutorial first
+2. Compare the layout to the tutorial's layout UI and code
+3. Notice what to improve to learn the layout structure
+
 ## Notes
 
 To **avoid confusion** and to **achieve cleaner code**, deeply nested layout code must be minimized. This can be done by **storing Widgets and components in variables**, then use those variables inside the Widget tree.
