@@ -10,15 +10,14 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    Image image = Image.asset("assets/images/lake.jpg");
+
     return MaterialApp(
-      title: 'Flutter layout demo',
+      title: 'Flutter Layout Building',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Layout Demo'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
+        body: Column(children: [
+          image,
+        ]),
       ),
     );
   }
